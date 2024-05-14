@@ -1,10 +1,10 @@
 # Site settings
-title: Murphy Huang Blog
-SEOTitle: 黄浩的博客 | Murphy Blog
+title: Murphy Blog
+SEOTitle: Murphy的博客 | Murphy Blog
 header-img: img/home-bg.jpg
 email: mophyhuang@gmail.com
-description: "这里是 黄浩 的个人博客，与你一起发现更大的世界 | 要做一个有 Make programmer great again 的程序员"
-keyword: "黄浩, Murphy，博客, 个人网站, 互联网, AI, Python， Java， Big Data, 云计算， 后端, 设计"
+description: "这里是 @Murphy 的个人博客，与你一起发现更大的世界"
+keyword: "Murphy UP主"
 url: "https://huangxuan.me" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -13,8 +13,12 @@ future: true
 
 # SNS settings
 RSS: false
-facebook_username:  huamgama168
-linkedin_username:  murphyhaohuang
+weibo_username: huxpro
+zhihu_username: huxpro
+github_username: huxpro
+twitter_username: huxpro
+#facebook_username:  huxpro
+#linkedin_username:  firstname-lastname-idxxxx
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
@@ -70,7 +74,7 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "要做一个NB的程序员 <br> React Team @ Meta"
+sidebar-about-description: "要做一个有 swag 的程序员 <br> React Team @ Meta"
 sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
@@ -87,5 +91,12 @@ page-mathjax: false
 # Friends
 friends:
   [
-    { title: "乱序（Midare）", href: "http://mida.re/" }
+    { title: "乱序（Midare）", href: "http://mida.re/" },
+    { title: "Ebn Zhang", href: "https://ebnbin.dev/" },
+    { title: "Kun Qian", href: "http://kunq.me" },
+    { title: "Sherry Woo", href: "https://sherrywoo.me/" },
+    { title: "SmdCn", href: "http://blog.smdcn.net" },
+    { title: "JiyinYiyong", href: "http://tiye.me/" },
+    { title: "DHong Say", href: "http://dhong.co" },
+    { title: "尹峰以为", href: "http://ingf.github.io/" },
   ]
