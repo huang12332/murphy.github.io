@@ -1,0 +1,19 @@
+---
+layout:     post
+title:      "Hello 2015"
+subtitle:   " \"Hello World, Hello Blog\""
+date:       2015-01-29 12:00:00
+author:     "Hux"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - Meta
+---
+
+#	PySpark performance optimize 
+###	wca mv_ac, mv_pty srz delta tables contains a large number of small files ,i t wasn't merged into a few of big files since 2023 year
+###	data source module from ETL had srz.sql.filter select from srz table where ifw_effective_date between start_date and end_date, 
+###	when the filter query execute on the wca source tables, it last upto 9 hours to finish the query 
+###	 comment out the srz.sql.filter, and write sql 
+`select from srz table where ifw_effective_date <= as_of_date and (ifw_effectitve_end_date = 0 or ifw_effective_end_date > as_of_date)` , 
+the filter would not read the data file before 2023 years, thus the query run within 20 mins completely 
